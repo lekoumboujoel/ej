@@ -7,12 +7,11 @@ public class Porte extends Bloc{
         super(largeur, longueur, hauteur);
         this.Verouille = Verouille;
 
+        this.couleur = Couleur.bleu;
+
     }
 
-    public boolean isVerouille(boolean verouille){
-        if(verouille){
-            return true;
-        }
-        else return false;
+    public boolean isVerouille(){
+        return Verouille;
     }
 }
